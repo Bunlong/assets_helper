@@ -1,6 +1,6 @@
 # AssetsHelper
 
-assets helper is the helper that use to include css and javascript by controller name automatically, it mean that it include only css and javascript file in the controller that you are standing.
+assets helper is the helper that use to include css and javascript by controller name automatically, it mean that it include only css and javascript file in the controller that you are standing. For details Document: http://geekhmer.github.io/blog/2013/12/19/assets-helper-gem/
 
 ## Installation
 

@@ -37,8 +37,20 @@ Step2: Add = yield :asset in your layout file (example: application.html.haml)
         = yield :asset
         = csrf_meta_tags
 
-Step3: If you create a controller name: homes, so go to app/assets/javascripts create a folder name: homes (app/assets/javascripts/homes) and go to app/assets/css create a folder name homes (app/assets/css/homes). And input javascripts files and css files that you use in homes controllers.
+Step3: Example if you create a controller name homes:
+    
+    $ rails generate controller homes
+
+Step4: Go to app/assets/javascripts and create a folder name homes like your controller (homes) you create below. And input javascript file that you use for controller homes in this folder ( app/assets/javascripts/homes ), and no need to include in application.js file.
+
+Step5: Go to app/assets/stylesheets and create a folder name homes like your controller(homes) you create below. And input css file that you use for controller homes in this folder(app/assets/stylesheets), and no need to include or import in application.css file.
+
+
+So whenever you run homes controller, it include only css and javascript file that you use for homes controller, and can make your project run fast.
+
 
 So when you go to the Browser and type http://localhost:3000/homes it include only javascripts files and css files that you use for homes controller.
 
-For any question pls email me: bunlong.van@gmail.com
+For more details: http://geekhmer.github.io/blog/2013/12/19/assets-helper-gem/
+
+Say Hi to me @BunlongVan

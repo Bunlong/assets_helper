@@ -55,6 +55,6 @@ For more details: http://geekhmer.github.io/blog/2013/12/19/assets-helper-gem/
 
 ## License
 
-[MIT License](http://www.opensource.org/licenses/mit-license.php)
+[MIT License](https://github.com/Bunlong/assets_helper/blob/master/LICENSE)
 
 Copyright (c) 2014 - Present, [Bunlong VAN](https://github.com/Bunlong) ( Maintainer )

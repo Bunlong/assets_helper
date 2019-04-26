@@ -1,4 +1,4 @@
-# AssetsHelper [![Gem Version](https://badge.fury.io/rb/assets_helper.svg)](http://badge.fury.io/rb/assets_helper)
+# AssetsHelper [![Gem Version](https://badge.fury.io/rb/assets_helper.svg)](http://badge.fury.io/rb/assets_helper) [![Gem Total Downloads](https://img.shields.io/gem/dt/assets_helper.svg)](https://rubygems.org/gems/assets_helper)
 
 assets helper is the helper that use to include css and javascript by controller name automatically, it mean that it include only css and javascript file in the controller that you are standing. For details Document: http://geekhmer.github.io/blog/2013/12/19/assets-helper-gem/
 
@@ -53,4 +53,8 @@ So when you go to the Browser and type http://localhost:3000/homes it include on
 
 For more details: http://geekhmer.github.io/blog/2013/12/19/assets-helper-gem/
 
-Say Hi to me @BunlongVan
+## License
+
+[MIT License](http://www.opensource.org/licenses/mit-license.php)
+
+Copyright (c) 2014-Present, [Bunlong VAN (activenavbar Maintainer)](https://github.com/Bunlong)
